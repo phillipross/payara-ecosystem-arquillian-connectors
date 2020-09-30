@@ -82,6 +82,8 @@ public class CommonPayaraConfiguration implements ContainerConfiguration {
     private String properties;
     private String type;
 
+    private String arqCubeRemappablePorts;
+
     public CommonPayaraConfiguration() {
         super();
     }
@@ -235,6 +237,17 @@ public class CommonPayaraConfiguration implements ContainerConfiguration {
     public void setType(String type) {
         this.type = type;
     }
+
+
+    public String getArqCubeRemappablePorts() {
+        return arqCubeRemappablePorts;
+    }
+
+
+    public void setArqCubeRemappablePorts(final String arqCubeRemappablePorts) {
+        this.arqCubeRemappablePorts = arqCubeRemappablePorts;
+    }
+
 
     /**
      * Validates if current configuration is valid, that is if all required
