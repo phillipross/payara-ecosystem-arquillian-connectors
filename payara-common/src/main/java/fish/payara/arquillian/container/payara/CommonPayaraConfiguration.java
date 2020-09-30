@@ -84,6 +84,8 @@ public class CommonPayaraConfiguration implements ContainerConfiguration {
     private String domain;
     protected boolean debug;
 
+    private String arqCubeRemappablePorts;
+
     public CommonPayaraConfiguration() {
         super();
     }
@@ -278,6 +280,17 @@ public class CommonPayaraConfiguration implements ContainerConfiguration {
     public void setDebug(boolean debug) {
         this.debug = debug;
     }
+
+
+    public String getArqCubeRemappablePorts() {
+        return arqCubeRemappablePorts;
+    }
+
+
+    public void setArqCubeRemappablePorts(final String arqCubeRemappablePorts) {
+        this.arqCubeRemappablePorts = arqCubeRemappablePorts;
+    }
+
 
     /**
      * Validates if current configuration is valid, that is if all required
