@@ -43,12 +43,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>fish.payara.arquillian</groupId>
+        <groupId>co.luminositylabs.payara.arquillian</groupId>
         <artifactId>parent-payara-containers</artifactId>
         <version>2.4-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>fish.payara.arquillian.test</groupId>
+    <groupId>co.luminositylabs.payara.arquillian.test</groupId>
     <artifactId>microprofile-test</artifactId>
     <packaging>war</packaging>
     <dependencyManagement>
@@ -150,7 +150,7 @@
       <id>payara-server-embedded</id>
       <dependencies>
         <dependency>
-          <groupId>fish.payara.arquillian</groupId>
+          <groupId>co.luminositylabs.payara.arquillian</groupId>
           <artifactId>arquillian-payara-server-embedded</artifactId>
           <version>${container.version}</version>
           <scope>test</scope>
@@ -179,7 +179,7 @@
       <id>payara-server-managed</id>
       <dependencies>
         <dependency>
-          <groupId>fish.payara.arquillian</groupId>
+          <groupId>co.luminositylabs.payara.arquillian</groupId>
           <artifactId>arquillian-payara-server-managed</artifactId>
           <version>${container.version}</version>
           <scope>test</scope>
@@ -236,7 +236,7 @@
       <dependencies>
 
         <dependency>
-          <groupId>fish.payara.arquillian</groupId>
+          <groupId>co.luminositylabs.payara.arquillian</groupId>
           <artifactId>arquillian-payara-micro-managed</artifactId>
           <version>${container.version}</version>
           <scope>test</scope>
@@ -290,7 +290,7 @@
       <dependencies>
 
         <dependency>
-          <groupId>fish.payara.arquillian</groupId>
+          <groupId>co.luminositylabs.payara.arquillian</groupId>
           <artifactId>arquillian-payara-micro-managed</artifactId>
           <version>${container.version}</version>
           <scope>test</scope>
@@ -310,14 +310,14 @@
       <id>payara-micro-remote</id>
       <dependencies>
           <dependency>
-              <groupId>fish.payara.arquillian</groupId>
+              <groupId>co.luminositylabs.payara.arquillian</groupId>
               <artifactId>payara-micro-remote</artifactId>
               <version>${container.version}</version>
               <scope>test</scope>
           </dependency>
 
         <dependency>
-          <groupId>fish.payara.arquillian</groupId>
+          <groupId>co.luminositylabs.payara.arquillian</groupId>
           <artifactId>payara-micro-deployer</artifactId>
           <version>${container.version}</version>
           <scope>test</scope>
@@ -339,7 +339,7 @@
                 <configuration>
                   <artifactItems>
                     <artifactItem>
-                      <groupId>fish.payara.arquillian</groupId>
+                      <groupId>co.luminositylabs.payara.arquillian</groupId>
                       <artifactId>payara-micro-deployer</artifactId>
                       <type>war</type>
                     </artifactItem>
