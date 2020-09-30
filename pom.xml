@@ -57,10 +57,11 @@
   limitations under the License.
 
 -->
+<!-- [Portions Copyright 2020 Luminosity Labs LLC] -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>fish.payara.arquillian</groupId>
+    <groupId>co.luminositylabs.payara.arquillian</groupId>
     <artifactId>parent-payara-containers</artifactId>
     <version>2.4.2-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -409,57 +410,57 @@
                                 <relocations>
                                     <relocation>
                                         <pattern>org.glassfish.json</pattern>
-                                        <shadedPattern>fish.payara.arquillian.json</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.json</shadedPattern>
                                     </relocation>
                                     <relocation>
                                         <pattern>org.glassfish.hk2</pattern>
-                                        <shadedPattern>fish.payara.arquillian.hk2</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.hk2</shadedPattern>
                                     </relocation>
                                     <relocation>
                                         <pattern>org.glassfish.jersey</pattern>
-                                        <shadedPattern>fish.payara.arquillian.jersey</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.jersey</shadedPattern>
                                     </relocation>
 
                                     <relocation>
                                         <pattern>com.fasterxml</pattern>
-                                        <shadedPattern>fish.payara.arquillian.faster</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.faster</shadedPattern>
                                     </relocation>
                                     <relocation>
                                         <pattern>jersey.repackaged</pattern>
-                                        <shadedPattern>fish.payara.arquillian.jersey.repackaged</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.jersey.repackaged</shadedPattern>
                                     </relocation>
                                     <relocation>
                                         <pattern>com.sun.research</pattern>
-                                        <shadedPattern>fish.payara.arquillian.research</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.research</shadedPattern>
                                     </relocation>
                                     <relocation>
                                         <pattern>org.jvnet</pattern>
-                                        <shadedPattern>fish.payara.arquillian.jvnet</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.jvnet</shadedPattern>
                                     </relocation>
                                     <relocation>
                                         <pattern>org.aopalliance</pattern>
-                                        <shadedPattern>fish.payara.arquillian.aopalliance</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.aopalliance</shadedPattern>
                                     </relocation>
 
                                     <relocation>
                                         <pattern>javax.json</pattern>
-                                        <shadedPattern>fish.payara.arquillian.javax.json</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.javax.json</shadedPattern>
                                     </relocation>
                                     <relocation>
                                         <pattern>javax.validation</pattern>
-                                        <shadedPattern>fish.payara.arquillian.validation</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.validation</shadedPattern>
                                     </relocation>
                                     <relocation>
                                         <pattern>javax.annotation</pattern>
-                                        <shadedPattern>fish.payara.arquillian.annotation</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.annotation</shadedPattern>
                                     </relocation>
                                     <relocation>
                                         <pattern>javax.ws</pattern>
-                                        <shadedPattern>fish.payara.arquillian.ws</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.ws</shadedPattern>
                                     </relocation>
                                     <relocation>
                                         <pattern>javax.inject</pattern>
-                                        <shadedPattern>fish.payara.arquillian.inject</shadedPattern>
+                                        <shadedPattern>co.luminositylabs.payara.arquillian.inject</shadedPattern>
                                     </relocation>
                                 </relocations>
                             </configuration>

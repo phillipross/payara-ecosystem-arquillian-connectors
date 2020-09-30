@@ -62,7 +62,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>fish.payara.arquillian</groupId>
+        <groupId>co.luminositylabs.payara.arquillian</groupId>
         <artifactId>parent-payara-containers</artifactId>
         <version>2.4.2-SNAPSHOT</version>
     </parent>
@@ -78,7 +78,7 @@
     <dependencies>
 
         <dependency>
-            <groupId>fish.payara.arquillian</groupId>
+            <groupId>co.luminositylabs.payara.arquillian</groupId>
             <artifactId>payara-container-common</artifactId>
             <version>${project.version}</version>
         </dependency>
