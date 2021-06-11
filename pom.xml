@@ -63,7 +63,7 @@
 
     <groupId>co.luminositylabs.payara.arquillian</groupId>
     <artifactId>parent-payara-containers</artifactId>
-    <version>2.4.2-ll-SNAPSHOT</version>
+    <version>2.4.2-ll-20210611.01</version>
     <packaging>pom</packaging>
 
     <name>Arquillian Container Parent Payara</name>
@@ -106,7 +106,7 @@
         <connection>scm:git:git@github.com:payara/ecosystem-arquillian-connectors.git</connection>
         <url>scm:git:git@github.com:payara/ecosystem-arquillian-connectors.git</url>
         <developerConnection>scm:git:git@github.com:payara/ecosystem-arquillian-connectors.git</developerConnection>
-        <tag>parent-payara-containers-2.4.2</tag>
+        <tag>2.4.2-ll-20210611.01</tag>
     </scm>
 
     <licenses>
